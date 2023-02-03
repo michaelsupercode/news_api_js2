@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: rgb(219, 219, 219);
+}
+
+h1 {
+  font-size: 1rem;
+  margin: 3vh 0 6vh 5vw;
+}
+
+h2,
+p {
+  padding: 2%;
+  font-size: 1rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  justify-items: center;
+}
+
+article {
+  display: grid;
+  margin: 0.5vh;
+  background: #fff;
+  height: 60vh;
+}
+article img {
+  width: 100%;
+}
+article div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article a {
+  border: 1px solid black;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+article a:hover {
+  background-color: #fff;
+  color: #000;
+}/*# sourceMappingURL=main.css.map */
