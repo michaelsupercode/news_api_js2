@@ -1,5 +1,5 @@
 const fatchData = async() => {
-    const result = await fetch('https://newsapi.org/v2/top-headlines?country=de&apiKey=')
+    const result = await fetch('https://newsapi.org/v2/top-headlines?country=de&apiKey=720ac6da72764017985a7781d675701d')
     const data = await result.json()
     console.log('data', data)
 
